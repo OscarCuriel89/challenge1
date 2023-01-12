@@ -1,0 +1,232 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #E5E5E5;
+}
+.container{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+    
+}
+
+.logo1{
+   margin-top: 1%;
+   margin-left: -50px;
+   float: inherit;  
+      
+}
+.logo{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.izquierda{
+    float: left;
+    width: 50%;
+    height: 90%;
+    border-radius: 24px;
+}
+.input{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: auto;
+    height: 400px;
+    color: #0A3871;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #E5E5E5;
+
+}
+#input-texto{
+    margin-top: 0%;
+    height: 500px;
+    
+   
+}
+.input::placeholder{
+    color: #0A3871;    
+}
+.lateral{
+    float: right;
+    width: 30%;
+    height: 93%;
+    border: 24px;
+    background: white;
+    border-radius: 24px; 
+}
+
+#mono{
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+    margin-left: 2%;
+}
+#texto1{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+#texto2{
+    float: left;
+    margin-left: 10%;
+    color: #0A3871;
+    width: 80%;
+    height: 35%;
+    border: none;
+    outline: none;
+    font-family: 'Arial';
+    font-size: 15px;
+    color: #495057;
+    text-align: center;
+}
+p{
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    margin-left: 15%;
+}
+.botones{
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-top: 2px;
+    border-radius: 24px;
+    
+    
+}
+#encriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: #0A3871;
+    cursor: pointer;
+    color: #E5E5E5;
+}
+#desencriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #d8dfe8;
+    cursor: pointer;
+}
+
+#copiar{
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: #d8dfe8;
+    border-radius: 24px;
+    display: none;
+    cursor: pointer;    
+}
+@media screen and (max-width:819px) {
+    .container{
+        display: contents;
+    }
+    .logo1{
+        margin-left: -87px;
+        margin-top: 50px;
+    }
+    .izquierda{
+        height: 1%;
+        align-items: center;
+    }
+   .botones{
+    width: 90vw;
+    margin-bottom: 20px;
+   }
+    
+    .input{
+        width: 600px;
+        height: 600px;
+    }
+    #input-texto{
+        font-size: 30px;
+    }
+    #texto2{
+        font-size: 24px;
+        height: 100px;       
+    }
+  textarea{
+    width: 70vw;
+  }  
+  .lateral{
+    width: 82vw;
+    height: 200px;
+    justify-content: center;
+    margin-right: 107px;
+  }
+  #mono{
+    display: none;
+  }
+  #desencriptar{
+    width: 35%;
+    margin-left: 5%;
+  }
+  #encriptar{
+    width: 35%;
+  }
+  #copiar{
+    margin-top: 20%;
+   
+    padding: 24px;
+}
+}
+@media screen and (max-width:415px){
+    .container{
+        display: contents;
+    }
+    .input::placeholder{
+        font-size: 50px;
+    }
+    .botones{
+        width: 100vw;
+    }
+    #desencriptar{
+        width: 100%;
+        margin-left: 30%;
+      }
+      #encriptar{
+        width: 100%;
+        margin-left: 30%;
+        margin-bottom: 10px;
+      }
+      textarea{
+        width: 70vw;
+      }  
+      .lateral{
+        width: 96vw;
+        height: 300px;
+        justify-content: center;
+        margin-right: -109px;
+      }
+      #copiar{
+        margin-top: 60%;
+       
+        padding: 24px;
+    }
+    #input-texto{
+        font-size: 61px;
+        margin-left: 98px;
+    }
+    #texto2{
+        font-size: 40px;
+        height: 100px;       
+    }
+}
